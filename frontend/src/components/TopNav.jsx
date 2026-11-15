@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 
 export default function TopNav() {
-  const { user, notifications } = useAuth();
+  const { user, notifications } = useAuth(); 
   const [showNotif, setShowNotif] = useState(false);
 
   return (
