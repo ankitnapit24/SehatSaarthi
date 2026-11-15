@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import api from '../services/api';
+import api from '../services/api'; 
 
 const WELCOME_MSG = {
   role: 'assistant',
