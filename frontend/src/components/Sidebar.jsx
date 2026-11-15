@@ -1,7 +1,7 @@
 import { useAuth } from '../context/AuthContext';
 
 export default function Sidebar({ links, activeKey, onNavigate }) {
-  const { user, logout } = useAuth();
+  const { user, logout } = useAuth(); 
   return (
     <aside className="fixed left-0 top-0 h-full w-72 bg-white shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex flex-col justify-between">
       <div className="flex flex-col">
